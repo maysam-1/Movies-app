@@ -1,0 +1,92 @@
+{
+    "movies": [
+      {
+        "id": "1",
+        "title": "Inception",
+        "year": 2010,
+        "category": "Sci-Fi",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+        "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQovCe0H45fWwAtV31ajOdXRPTxSsMQgPIQ3lcZX_mAW0jXV3kH"
+      },
+      {
+        "id": "2",
+        "title": "Interstellar",
+        "year": 2014,
+        "category": "Sci-Fi",
+        "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9oW0XQlu1lo1G_49M-YwGzKR6rUg-CtflZj07HfbT8d2GwKWg"
+      },
+      {
+        "id": "3",
+        "title": "The Dark Knight",
+        "year": 2008,
+        "category": "Action",
+        "description": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
+        "img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkUywIUXDjHSQJIaNHYVs08osgBpF5Ot-xmB_omyEZeeRP9Xug"
+      },
+      {
+        "id": "4",
+        "title": "Avatar",
+        "year": 2009,
+        "category": "Fantasy",
+        "description": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+        "img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYWVMx6h59vKIGkku5l3hPkBbqsErDsCB7-QZ9zaKuhTN8edvL"
+      },
+      {
+        "id": "5",
+        "title": "The Matrix",
+        "year": 1999,
+        "category": "Action",
+        "description": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+        "img": "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg"
+      },
+      {
+        "id": "6",
+        "title": "Titanic",
+        "year": 1997,
+        "category": "Romance",
+        "description": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+        "img": "https://i.ebayimg.com/images/g/jjEAAOSwZIZhPkJ9/s-l1600.webp"
+      },
+      {
+        "id": "7",
+        "title": "Jurassic Park",
+        "year": 1993,
+        "category": "Adventure",
+        "description": "An industrialist invites some experts to visit his theme park of cloned dinosaurs. After a power failure, the creatures run loose, putting everyone's lives, including his grandchildren's, in danger.",
+        "img": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2021/08/19091127/oU7Oq2kFAAlGqbU4VoAE36g4hoI.jpg"
+      },
+      {
+        "id": "8",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": 2001,
+        "category": "Adventure",
+        "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "img": "https://resizing.flixster.com/5opT-tFUEhOeMzsbrI8oZIm3EW8=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p28828_p_v8_ao.jpg"
+      },
+      {
+        "id": "9",
+        "title": "John Wick",
+        "year": 2014,
+        "category": "Action",
+        "description": "John Wick is a former hitman grieving the loss of his true love. When his home is broken into, robbed, and his dog killed, he is forced to return to action to exact revenge.",
+        "img": "https://upload.wikimedia.org/wikipedia/en/9/98/John_Wick_TeaserPoster.jpg?20180105073428"
+      },
+      {
+        "id": "10",
+        "title": "The Notebook",
+        "year": 2004,
+        "category": "Romance",
+        "description": "An elderly man reads to a woman with dementia the story of two young lovers whose romance is threatened by the difference in their respective social classes.",
+        "img": "https://upload.wikimedia.org/wikipedia/en/8/86/Posternotebook.jpg"
+      },
+      {
+        "id": "11",
+        "title": "The Maze Runner",
+        "year": "2014",
+        "category": "Sci-Fi",
+        "description": "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow \"runners\" for a shot at escape.",
+        "img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQBkgL9KKgpWEVeh8hlIAu_f7MVlJre29wWd3TPW-dgt1_c1LUqpo6efTNnF678QRyDH-hsA"
+      }
+    ]
+  }

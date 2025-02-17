@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+
+/* Search Bar */
+#dark-theme-body .search-bar {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #333333; /* Dark background for the search bar */
+  border-radius: 5px;
+  border: 1px solid #444444;
+}
+
+#dark-theme-body .search-bar input {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  font-size: 16px;
+}
+
+#dark-theme-body .search-bar button {
+  background-color: #4f83cc; /* Blue button */
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#dark-theme-body .search-bar button:hover {
+  background-color: #1a5ba6; /* Darker blue on hover */
+}
+
+/* Category Filter Dropdown */
+#dark-theme-body .filter-dropdown {
+  margin: 20px auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+#dark-theme-body .filter-dropdown select {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #444444;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 200px;
+}
+
+#dark-theme-body .filter-dropdown select:hover {
+  border-color: #4f83cc; /* Blue border on hover */
+}
+
+body{
+  background:rgb(52, 51, 51);
+  margin:0;
+  padding: 0;
+
+}
