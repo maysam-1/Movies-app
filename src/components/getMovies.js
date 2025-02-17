@@ -1,35 +1,28 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import axios from "axios";
+import { useQuery } from "@tanstack/react-query";
+
+async function fetchMovies(category) {
+  const res = await axios.get("http://localhost:5000/movies");
+  
+  const filteredMovies = res.data.filter((movie) => 
+    category === "All" ? true : movie.category.includes(category) 
+  );
+
+  return filteredMovies; 
+}
 
 function GetMovies(props){
-    const[movies,setMovies]=useState([])
-    const[isLoading,setIsLoading]=useState(true)
-    const[category,setCategory]=useState('All')
-   useEffect(()=>{
-    async function fetch(){
-        try{
-            isLoading&&<h1>loading...</h1>
-           const res= await axios.get(`http://localhost:5000/movies`)
-            setIsLoading(false)
-            const categorizedM = res.data.filter((movie) => {
-                if (props.category === "All") {
-                  return true; // Keep all movies
-                } else {
-                  return movie.category === props.category; // Match exact category
-                }
-              });
-              
-              setMovies(categorizedM);
-            setCategory(props.category)
-            
-        }catch(err){
-            console.log(err)
-        }
-    }
-    fetch()
-   },[props.category]) 
-
+  
+  const category=props.category
+  const { data: movies = [], error, isLoading } = useQuery({
+    queryKey: ["movies", category], 
+    queryFn: () => fetchMovies(category),
+    staleTime: 5000,
+  });
+   isLoading&&<h1>is loading...</h1>
+   error&&console.log(error.message)
    return(
     <ul style={{listStyleType:"none",display:"flex",flexWrap:"wrap",color:"white"}}>
    {
